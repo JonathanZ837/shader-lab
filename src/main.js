@@ -199,7 +199,6 @@ function createShape(type) {
 
 createShape('cube');
 
-// === Handle selector change ===
 document.getElementById('shape').addEventListener('change', (e) => {
   createShape(e.target.value);
 });

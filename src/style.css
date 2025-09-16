@@ -48,30 +48,29 @@ canvas {
   padding: 6px 10px;
   font-family: "Georgia";
 
-  background: transparent;      /* transparent background for the select box */
-  color: white;                 /* white text */
-  border: 2px solid white;      /* white outline */
+  background: transparent;     
+  color: white;                
+  border: 2px solid white;      
   border-radius: 4px;
 
 
 }
 
-/* Style dropdown menu items */
 #menu option {
-  background: black;            /* dark background */
-  color: white;                 /* white text */
+  background: black;            
+  color: white;                 
   font-family: "Georgia"
 }
 
 #menu input[type="checkbox"] {
   width: 18px;
   height: 18px;
-  background-color: black;   /* black background */
-  border: 2px solid white;  /* white border */
+  background-color: black;   
+  border: 2px solid white; 
   border-radius: 3px;
   vertical-align: middle;
   margin-right: 6px;
-  accent-color: white;       /* ensures checkmark is white in modern browsers */
+  accent-color: white;       
   cursor: pointer;
 }
 
@@ -80,9 +79,9 @@ canvas {
 }
 
 input[type=range] {
-  width: 150px;               /* Adjust width as needed */
-  height: 6px;                /* Thinner bar */
-  background: #fff;           /* White track */
+  width: 150px;           
+  height: 6px;                
+  background: #fff;           
   border-radius: 3px;
   outline: none;
   margin: 5px 0;
